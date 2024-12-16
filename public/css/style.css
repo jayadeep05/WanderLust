@@ -1,0 +1,77 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+/* icon */
+.fa-compass {
+  color: red;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: rgb(27, 22, 22) !important;
+}
+
+/* card */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* new form  and edit button also*/
+.add-btn {
+  background-color: rgb(255, 31, 31) !important;
+  border: none !important;
+}
+.add-btn:hover {
+  background-color: rgb(225, 0, 0) !important;
+}
+
+/* show page */
+.show-img {
+  height: 35vh;
+}
+
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
